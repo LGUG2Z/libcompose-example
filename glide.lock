@@ -1,0 +1,63 @@
+hash: 4959da7670fdaa8999b168fb601051430738e275f4d39f16de055240833bb20a
+updated: 2016-06-19T17:44:46.012183897+09:00
+imports:
+- name: github.com/cloudfoundry-incubator/candiedyaml
+  version: 99c3df83b51532e3615f851d8c2dbb638f5313bf
+- name: github.com/docker/docker
+  version: 98aa5fb2c0371452ebb12533fab36b72dec59941
+  subpackages:
+  - pkg/urlutil
+  - runconfig/opts
+  - opts
+  - pkg/mount
+  - pkg/signal
+- name: github.com/docker/engine-api
+  version: f90ecdb1e989f834dabbd91807e891094aa069fe
+  subpackages:
+  - types/strslice
+  - types
+  - types/blkiodev
+  - types/container
+  - types/network
+  - types/filters
+  - types/registry
+  - types/swarm
+  - types/versions
+- name: github.com/docker/go-connections
+  version: 990a1a1a70b0da4c4cb70e117971a4f0babfbf1a
+  subpackages:
+  - nat
+- name: github.com/docker/go-units
+  version: f2d77a61e3c169b43402a0a1e84f06daf29b8190
+- name: github.com/docker/libcompose
+  version: 78932cac4f5c95fdbfbe5d8932f028a69334d9d2
+  subpackages:
+  - config
+  - lookup
+  - project
+  - utils
+  - yaml
+  - logger
+  - project/events
+  - project/options
+- name: github.com/flynn/go-shlex
+  version: 3f9db97f856818214da2e1057f8ad84803971cff
+- name: github.com/Sirupsen/logrus
+  version: f3cfb454f4c209e6668c95216c4744b8fddb2356
+- name: github.com/spf13/pflag
+  version: 367864438f1b1a3c7db4da06a2f55b144e6784e0
+- name: github.com/xeipuuv/gojsonpointer
+  version: e0fe6f68307607d540ed8eac07a342c33fa1b54a
+- name: github.com/xeipuuv/gojsonreference
+  version: e02fc20de94c78484cd5ffb007f8af96be030a45
+- name: github.com/xeipuuv/gojsonschema
+  version: d5336c75940ef31c9ceeb0ae64cf92944bccb4ee
+- name: golang.org/x/net
+  version: 1961d9def2b2d7a28d7958926d2457d05a178ecd
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: 62bee037599929a6e9146f29d10dd5208c43507d
+  subpackages:
+  - unix
+devImports: []

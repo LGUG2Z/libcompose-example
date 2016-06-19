@@ -1,0 +1,7 @@
+package: github.com/dtan4/libcompose-example
+import:
+- package: github.com/docker/libcompose
+  subpackages:
+  - config
+  - lookup
+  - project
